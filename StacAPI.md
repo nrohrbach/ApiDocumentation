@@ -13,7 +13,7 @@ Here we show you some examples how to query the STAC-API:
 ## Available datasets
 You will find all available datasets of the Federal Spatial Data Infrastructure FSDI [here](https://data.geo.admin.ch/browser/index.html#/?t=collections).
 
-*Note: SFOE datasets that are updated regularly are not availble via the STAC API at the moment. These datasets are:
+*Note: SFOE datasets that are updated regularly are not availble via the STAC API at the moment. These datasets are:*
 * ch.bfe.elektrizitaetsproduktionsanlagen
 * ch.bfe.energieberatungsstellen
 * ch.bfe.energieforschung
