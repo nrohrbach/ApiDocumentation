@@ -8,8 +8,23 @@ Here we show you some examples how to query the STAC-API:
 * [Detailled documentation of the STAC-API](https://data.geo.admin.ch/api/stac/static/spec/v0.9/api.html)
 * [STAC Specification](https://stacspec.org/)
 
+*Note: Use [GeoAdmin API](https://nrohrbach.github.io/ApiDocumentation/GeoAdminAPI/) if you want to query objects within a dataset.*
+
 ## Available datasets
 You will find all available datasets of the Federal Spatial Data Infrastructure FSDI [here](https://data.geo.admin.ch/browser/index.html#/?t=collections).
+
+*Note: SFOE datasets that are updated regularly are not availble via the STAC API at the moment. These datasets are:
+* ch.bfe.elektrizitaetsproduktionsanlagen
+* ch.bfe.energieberatungsstellen
+* ch.bfe.energieforschung
+* ch.bfe.energiestaedte
+* ch.bfe.energiestaedte-2000watt-areale
+* ch.bfe.erneuerbarheizen
+* ch.bfe.erneuerbarheizen-mehrfamilienhaeuser
+* ch.bfe.komo-projekte
+* ch.bfe.ladestellen-elektromobilitaet
+* ch.bfe.shared-mobility
+* ch.bfe.thermische-netze
 
 ## Example queries
 
@@ -20,3 +35,25 @@ E.G [Get the details of the dataset "Wind Energy Plants](https://data.geo.admin.
 ```
 https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bfe.windenergieanlagen
 ```
+
+### Get the available download possibilietes of a dataset
+Use the [GET features](https://data.geo.admin.ch/api/stac/static/spec/v0.9/api.html#operation/getFeatures) endpoint.
+
+E.G [Get the all downloads of the dataset "Wind Energy Plants](https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bfe.windenergieanlagen/items):
+```
+https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bfe.windenergieanlagen/items
+```
+
+### Get all datasets within a time period
+Use the [GET search](https://data.geo.admin.ch/api/stac/static/spec/v0.9/api.html#operation/getSearchSTAC) endpoint.
+
+E.G [Get the all dataset acquired after 2022-02-01](https://data.geo.admin.ch/api/stac/v0.9/search?datetime=2022-02-01/..):
+```
+https://data.geo.admin.ch/api/stac/v0.9/search?datetime=2022-02-01/..
+```
+Time intervalls can be expressed as followed:
+* A date-time: "2018-02-12T23:20:50Z"
+* A closed interval: "2018-02-12T00:00:00Z/2018-03-18T12:31:12Z"
+* Open intervals: "2018-02-12T00:00:00Z/.." or "../2018-03-18T12:31:12Z"
+
+
