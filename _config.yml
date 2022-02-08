@@ -1,6 +1,6 @@
 title: "API Documentation SFOE"
 author: "Nico Rohrbach"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
+description: "Swiss Federal Office of Energy"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -17,13 +17,14 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html"}
-  - {file: "GeoAdminAPI.md"}
-  - {file: "Opendata.swissMetadataAPI.md"}
+  - {file: "GeoAdminAPI.md", title: GeoAdmin API}
+  - {file: "Opendata.swissMetadataAPI.md", title: Metadata API}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:geoinformation@bfe.admin.ch"}
+  - {title: Github, icon: github, url: "https://github.com/SFOE"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/BFEgeoinfo"}
+
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
