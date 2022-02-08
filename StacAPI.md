@@ -55,5 +55,5 @@ Time intervalls can be expressed as followed:
 * A date-time: "2018-02-12T23:20:50Z"
 * A closed interval: "2018-02-12T00:00:00Z/2018-03-18T12:31:12Z"
 * Open intervals: "2018-02-12T00:00:00Z/.." or "../2018-03-18T12:31:12Z"
-
+ 
 
