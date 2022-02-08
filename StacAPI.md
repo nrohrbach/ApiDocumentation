@@ -7,6 +7,7 @@ Here we show you some examples how to query the STAC-API:
 * [General information on the STAC-API](https://www.geo.admin.ch/en/geo-services/geo-services/download-services/stac-api.html)
 * [Detailled documentation of the STAC-API](https://data.geo.admin.ch/api/stac/static/spec/v0.9/api.html)
 * [STAC Specification](https://stacspec.org/)
+* [Plugin to read data directly in QGIS using STAC-API ](https://kartoza.com/en/blog/new-qgis-stac-api-plugin/)
 
 *Note: Use [GeoAdmin API](https://nrohrbach.github.io/ApiDocumentation/GeoAdminAPI/) if you want to query objects within a dataset.*
 
