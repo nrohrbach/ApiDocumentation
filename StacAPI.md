@@ -36,7 +36,7 @@ E.G [Get the details of the dataset "Wind Energy Plants](https://data.geo.admin.
 https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bfe.windenergieanlagen
 ```
 
-### Get the available download possibilietes of a dataset
+### Get the available download possibilities of a dataset
 Use the [GET features](https://data.geo.admin.ch/api/stac/static/spec/v0.9/api.html#operation/getFeatures) endpoint.
 
 E.G [Get the all downloads of the dataset "Wind Energy Plants](https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bfe.windenergieanlagen/items):
@@ -44,7 +44,7 @@ E.G [Get the all downloads of the dataset "Wind Energy Plants](https://data.geo.
 https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bfe.windenergieanlagen/items
 ```
 
-### Get all datasets within a time period
+### Get all datasets published within a time period
 Use the [GET search](https://data.geo.admin.ch/api/stac/static/spec/v0.9/api.html#operation/getSearchSTAC) endpoint.
 
 E.G [Get the all dataset acquired after 2022-02-01](https://data.geo.admin.ch/api/stac/v0.9/search?datetime=2022-02-01/..):
