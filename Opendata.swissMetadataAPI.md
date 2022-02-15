@@ -1,3 +1,5 @@
+## Opendata.swiss Metadata API
+
 The metadata of the SFOE's open government data (OGD) can be queried via the CKAN API from opendata.swiss. The last update or available download options can be queried via the API, for example.
 
 ## Links 
