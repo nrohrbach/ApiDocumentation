@@ -16,7 +16,7 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "GeoAdminAPI.md", title: GeoAdmin API}
+  - {file: "GeoAdminAPI.md"}
   - {file: "Opendata.swissMetadataAPI.md", title: Metadata API}
   - {file: "StacAPI.md", title: STAC API}
   - {file: "Sharedmobility.ch-API.md", title: Sharedmobility.ch API}
