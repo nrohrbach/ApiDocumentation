@@ -16,10 +16,10 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "GeoAdminAPI.md"}
-  - {file: "Opendata.swissMetadataAPI.md"}
-  - {file: "StacAPI.md"}
-  - {file: "Sharedmobility.ch-API.md"}
+  - {file: "GeoAdminAPI.md", title: "GeoAdmin API"}
+  - {file: "Opendata.swissMetadataAPI.md", title: "Metadata API"}
+  - {file: "StacAPI.md", title: "STAC API"}
+  - {file: "Sharedmobility.ch-API.md", title: "Sharedmobility.ch API"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:geoinformation@bfe.admin.ch"}
