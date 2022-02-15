@@ -1,3 +1,5 @@
+## GeoAdmin API
+
 The SFOE's geodata can be queried via swisstopo's RESTful API. In addition to data content (e.g. Which power plants were built before 1970?), spatial queries (e.g. Which power plants are located within 2km of point X/Y?) are also possible.
 
 ## Links 
