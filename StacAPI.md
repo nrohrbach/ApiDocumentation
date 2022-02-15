@@ -1,3 +1,5 @@
+## STAC API
+
 The data.geo.admin.ch Spatial Temporal Asset Catalog – API is a “dataset based” download service providing access to packaged geospatial data and related metadata.
 
 ## Links 
