@@ -13,5 +13,5 @@ The SFOE’s data can be queried automatically via programming interfaces. A com
 ## Available APIs
 * [GeoAdmin API](https://nrohrbach.github.io/ApiDocumentation/GeoAdminAPI/)
 * [Opendata.swiss Metadata API](https://nrohrbach.github.io/ApiDocumentation/Opendata.swissMetadataAPI/)
-* [Stac API](https://nrohrbach.github.io/ApiDocumentation/StacAPI/)
+* [STAC API](https://nrohrbach.github.io/ApiDocumentation/StacAPI/)
 * [Sharedmobility.ch API](https://nrohrbach.github.io/ApiDocumentation/Sharedmobility.ch-API/)
