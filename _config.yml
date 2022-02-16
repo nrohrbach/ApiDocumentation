@@ -1,6 +1,6 @@
 title: "API Documentation SFOE"
 author: "Nico Rohrbach"
-description: "Swiss Federal Office of Energy"
+description: "<a href="https://www.bfe.admin.ch/geoinformation">Swiss Federal Office of Energy</a>"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
