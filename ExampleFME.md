@@ -47,7 +47,7 @@ Eventually use a *Tester* transformer to loop as long as status is 'processing'.
 Now use a *tester* transformer to check if data is valid. If status is 'completed' proceed with valid data e.g. publication. If status is 'completedWithErrors' download log files to detect errors and stop process with a *Terminator* transformer:
 
 
-<img src="https://github.com/nrohrbach/IlicopDocumentation/blob/main/images/4_logfiles.JPG" width="50%"/>
+<img src="https://github.com/nrohrbach/ApiDocumentation/blob/master/images/4_logfiles.JPG" width="50%"/>
 
 Use a *HTTPCaller* transfomer to download log files:
 * Log file: https://ilicop.ch/api/v1/download?jobId=@Value(jobid)&logType=log
