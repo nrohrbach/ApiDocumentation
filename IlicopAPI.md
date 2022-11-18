@@ -8,6 +8,6 @@ Here we show you examples in Python an FME how to query the Ilicop-API:
 
 
 ## Examples
-* [Python](https://github.com/nrohrbach/IlicopDocumentation/blob/main/IlicopAPI_python.ipynb)
-* [FME](https://github.com/nrohrbach/IlicopDocumentation/blob/main/ExampleFME.md)
+* [Python](https://github.com/nrohrbach/ApiDocumentation/blob/master/IlicopAPI_python.ipynb)
+* [FME](https://github.com/nrohrbach/ApiDocumentation/blob/master/ExampleFME.md)
 
