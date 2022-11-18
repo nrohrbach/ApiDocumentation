@@ -3,7 +3,7 @@ This example shows you how to use the ilicop API with FME.
 
 ## General information
 * FME Desktop 2020.1.3.0 was used.
-* [Download Workbench file](https://github.com/nrohrbach/IlicopDocumentation/raw/main/IlicopAPI_FME.zip)
+* [Download Workbench file](https://github.com/nrohrbach/ApiDocumentation/raw/master/IlicopAPI_FME.zip)
 
 ## 1. Upload Interlis file for validation
 Use the *POST Upload* endpoint to submit a xtf-file for validation.
